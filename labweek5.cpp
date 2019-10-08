@@ -1,3 +1,4 @@
+//Charae a/L Eh Sin B031820094
 //Lab Week 5: Using some library functions, arithmetic, and more
 
 #include "stdafx.h"
@@ -8,6 +9,7 @@
 using namespace std;
 int main()
 {
+	//Doing arithmetic in C++ and using standard library
 	int x = 4, z = 5;
 	double y = 0.0;
 	y = x + 9;
@@ -27,7 +29,8 @@ int main()
 	cout << "no precision of y: " << y << endl;
 	cout << fixed << setprecision(2) << "fixed + precision double of y: " << y << endl;
 	cout << "int of y: " << static_cast<int>(y) << endl;
-
+	
+	//Using string
 	cout << "Please enter your name:" << endl;
 	string name;
 	getline(cin, name);
