@@ -1,3 +1,5 @@
+//Lab Week 5: Using some library functions, arithmetic, and more
+
 #include "stdafx.h"
 #include <iostream>
 #include <cmath>
